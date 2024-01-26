@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DashboardController!
+{% endblock %}
+
+{% block body %}
+	<style>
+		.example-wrapper {
+			margin: 1em auto;
+			max-width: 800px;
+			width: 95%;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code {
+			background: #F5F5F5;
+			padding: 2px 6px;
+		}
+	</style>
+
+	<div class="example-wrapper">
+		<h1>Hello Admin !</h1>
+
+		<ul>
+			<li><a href="/admin/pen">Stylos</a></li>
+			<li><a href="/admin/type">Types</a></li>
+			<li><a href="/admin/brand">Marques</a></li>
+			<li><a href="/admin/color">Couleurs</a></li>
+			<li><a href="/admin/material">Matériaux</a></li>
+			<li><a href="/admin/user">Utilisateurs</a></li>
+		</ul>
+	</div>
+{% endblock %}
